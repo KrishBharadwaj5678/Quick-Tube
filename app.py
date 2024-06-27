@@ -49,4 +49,4 @@ if btn:
                 video.download(filename="muted-video.mp4")
                 download("muted-video.mp4","Download Muted Video")
     except:
-        st.error("Invalid Youtube URL :(")
+        st.error("Failed To Fetch Data :(")
